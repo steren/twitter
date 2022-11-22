@@ -4,22 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>steren’s Twitter Archive</title>
-		<meta name="description" content="A read-only indieweb self-hosted archive of of steren’s tweets." />
-		<script>
-		if("classList" in document.documentElement) {
-			document.documentElement.classList.add("has-js");
-		}
-		</script>
-
+		<meta name="description" content="A read-only archive of of steren’s tweets." />
 		
-			<link rel="stylesheet" href="/assets/chartist.min.css">
-			<link rel="stylesheet" href="/assets/chart.css">
-			<script src="/assets/chartist.min.js"></script>
-			<script src="/assets/chart.js"></script>
-		
+        <link rel="stylesheet" href="/assets/style.css">
 
-		<link rel="stylesheet" href="/assets/style.css">
-		<script src="/assets/script.js"></script>
 		
 	</head>
 	<body>
@@ -52,13 +40,6 @@
 
 		<div>
 			<h2><a href="/recent/">Recent:</a></h2>
-			<div class="twtr-sentiment twtr-sentiment-max js">
-				<div class="twtr-sentiment-chart ct-chart"></div>
-				<div class="twtr-sentiment-label">
-					⬅️ New
-					<span>⬆️ 🙂<br>⬇️ 🙁</span>
-				</div>
-			</div>
 			<ol class="tweets tweets-linear-list" id="tweets-recent-home">
 				<li id="1588393278646341632" class="tweet">
 		
@@ -358,78 +339,6 @@ Thanks <a href="https://twitter.com/SNCF/" class="tweet-username">SNCF</a>. cc @
 		</li>
 			</ol>
 		</div>
-
-		<h2 id="retweets">I’ve retweeted other tweets 982 times (12.9%)</h2>
-		<div class="lo" style="--lo-stackpoint: 20em">
-			<div class="lo-c">
-				<h3>Most Retweeted</h3>
-				<ol>
-					<li><a href="https://twitter.com/googlecloud">googlecloud</a> 21 retweets</li><li><a href="https://twitter.com/ahmetb">ahmetb</a> 20 retweets</li><li><a href="https://twitter.com/MylesBorins">MylesBorins</a> 17 retweets</li><li><a href="https://twitter.com/kelseyhightower">kelseyhightower</a> 17 retweets</li><li><a href="https://twitter.com/wietsevenema">wietsevenema</a> 13 retweets</li><li><a href="https://twitter.com/Sketchfab">Sketchfab</a> 11 retweets</li><li><a href="https://twitter.com/geeyom">geeyom</a> 10 retweets</li><li><a href="https://twitter.com/azaaza">azaaza</a> 10 retweets</li><li><a href="https://twitter.com/mchmarny">mchmarny</a> 9 retweets</li><li><a href="https://twitter.com/bazelbuild">bazelbuild</a> 9 retweets</li>
-				</ol>
-			</div>
-			<div class="lo-c">
-				<h3>Most Retweeted (Last 12 months)</h3>
-				<ol>
-					<li><a href="https://twitter.com/mchmarny">mchmarny</a> 3 retweets</li><li><a href="https://twitter.com/wietsevenema">wietsevenema</a> 2 retweets</li><li><a href="https://twitter.com/n_1215">n_1215</a> 1 retweet</li><li><a href="https://twitter.com/aerialfly">aerialfly</a> 1 retweet</li><li><a href="https://twitter.com/leeerob">leeerob</a> 1 retweet</li><li><a href="https://twitter.com/stefanjudis">stefanjudis</a> 1 retweet</li><li><a href="https://twitter.com/_benjamintd">_benjamintd</a> 1 retweet</li><li><a href="https://twitter.com/wylynko">wylynko</a> 1 retweet</li><li><a href="https://twitter.com/kevmoo">kevmoo</a> 1 retweet</li><li><a href="https://twitter.com/jasonlong">jasonlong</a> 1 retweet</li>
-				</ol>
-			</div>
-		</div>
-
-		<h2 id="replies">Replies and Mentions</h2>
-		<h3>45.0% of my tweets are replies (×3,424)</h3>
-		<div class="lo" style="--lo-stackpoint: 20em">
-			<div class="lo-c">
-				<h4>Most Replies To</h4>
-				<ol>
-					<li><a href="https://twitter.com/manekinekko">manekinekko</a> 44 replies</li><li><a href="https://twitter.com/MylesBorins">MylesBorins</a> 39 replies</li><li><a href="https://twitter.com/jplts">jplts</a> 37 replies</li><li><a href="https://twitter.com/ahmetb">ahmetb</a> 35 replies</li><li><a href="https://twitter.com/mattomata">mattomata</a> 34 replies</li>
-				</ol>
-			</div>
-			<div class="lo-c">
-				<h4>Most Replies To (Last 12 months)</h4>
-				<ol>
-					<li><a href="https://twitter.com/bradfitz">bradfitz</a> 11 replies</li><li><a href="https://twitter.com/manekinekko">manekinekko</a> 8 replies</li><li><a href="https://twitter.com/cramforce">cramforce</a> 8 replies</li><li><a href="https://twitter.com/simonw">simonw</a> 7 replies</li><li><a href="https://twitter.com/rakyll">rakyll</a> 7 replies</li>
-				</ol>
-			</div>
-		</div>
-		<h3>I’ve sent someone a mention 88 times (1.2%)</h3>
-
-		<h2 id="links">Most Frequent Sites I’ve Linked To</h2>
-		<h3>65.8% of the links I’ve posted are using the <code>https:</code> protocol  (2,071 of 3,147)</h3>
-		<h3>92.0% of the links I’ve posted in the last 12 months are using the <code>https:</code> protocol  (276 of 300)</h3>
-
-		<div class="lo" style="--lo-stackpoint: 20em">
-			<div class="lo-c">
-				<h4>Top Domains</h4>
-				<ol>
-					<li><a href="https://google.com">google.com</a> 492 tweets</li><li><a href="https://github.com">github.com</a> 309 tweets</li><li><a href="https://twitter.com">twitter.com</a> 302 tweets</li><li><a href="https://youtu.be">youtu.be</a> 146 tweets</li><li><a href="https://youtube.com">youtube.com</a> 99 tweets</li><li><a href="https://steren.fr">steren.fr</a> 85 tweets</li><li><a href="https://cloud.run">cloud.run</a> 45 tweets</li><li><a href="https://bit.ly">bit.ly</a> 40 tweets</li><li><a href="https://googleblog.com">googleblog.com</a> 40 tweets</li><li><a href="https://sketchfab.com">sketchfab.com</a> 34 tweets</li>
-				</ol>
-			</div>
-			<div class="lo-c">
-				<h4>Top Hosts</h4>
-				<ol>
-					<li><a href="https://cloud.google.com">cloud.google.com</a> 328 tweets</li><li><a href="https://twitter.com">twitter.com</a> 298 tweets</li><li><a href="https://github.com">github.com</a> 292 tweets</li><li><a href="https://youtu.be">youtu.be</a> 146 tweets</li><li><a href="https://www.youtube.com">www.youtube.com</a> 98 tweets</li><li><a href="https://cloud.run">cloud.run</a> 43 tweets</li><li><a href="https://labs.steren.fr">labs.steren.fr</a> 41 tweets</li><li><a href="https://bit.ly">bit.ly</a> 40 tweets</li><li><a href="https://goo.gl">goo.gl</a> 27 tweets</li><li><a href="https://medium.com">medium.com</a> 26 tweets</li>
-				</ol>
-			</div>
-		</div>
-
-		<h2 id="shared">My tweets have been given about <span class="tag tag-lite tag-retweet">♻️ 6,141</span> retweets and <span class="tag tag-lite tag-favorite">❤️ 32,404</span> likes</h2>
-
-		<h2 id="emoji">Top 5 Emoji Used in Tweets</h2>
-		<ol>
-			<li>😁 used 22 times on 22 tweets</li><li>✅ used 18 times on 8 tweets</li><li>👏 used 14 times on 6 tweets</li><li>👉 used 13 times on 13 tweets</li><li>🤔 used 10 times on 10 tweets</li>
-		</ol>
-		<p><em>145 unique emoji on 276 tweets (4.2% of all tweets***)</em></p>
-		<h2 id="hashtags">Top 5 Hashtags</h2>
-		<ol>
-			<li><code>hacklecamping</code> used 28 times </li><li><code>lecamping</code> used 23 times </li><li><code>swpa</code> used 23 times </li><li><code>b3d</code> used 22 times </li><li><code>hackdayparis</code> used 16 times </li>
-		</ol>
-		<p><em>624 hashtags on 620 tweets (9.4% of all tweets***)</em></p>
-		<h2 id="swears">Top 5 Swear Words</h2>
-		<ol>
-			<li><code>s_it</code> used 4 times </li><li><code>t_rd</code> used 3 times </li><li><code>a_s</code> used 3 times </li><li><code>b_llshit</code> used 2 times </li><li><code>h_ll</code> used 2 times </li>
-		</ol>
-		<p><em>19 swear words on 19 tweets (0.3% of all tweets***)</em></p>
-		<p>***: does not include retweets</p>
 
 		<script>
 		var searchForm = document.getElementById("search-url");
