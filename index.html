@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>steren’s Twitter Archive</title>
+		<meta name="description" content="A read-only indieweb self-hosted archive of of steren’s tweets." />
+		<script>
+		if("classList" in document.documentElement) {
+			document.documentElement.classList.add("has-js");
+		}
+		</script>
+
+		
+			<link rel="stylesheet" href="/assets/chartist.min.css">
+			<link rel="stylesheet" href="/assets/chart.css">
+			<script src="/assets/chartist.min.js"></script>
+			<script src="/assets/chart.js"></script>
+		
+
+		<link rel="stylesheet" href="/assets/style.css">
+		<script src="/assets/script.js"></script>
+		
+	</head>
+	<body>
+		<header>
+			<h1 class="tweets-title"><a href="/"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar">steren’s Twitter Archive</a></h1>
+			<ul class="tweets-nav">
+				<li><a href="https://www.steren.fr/">← steren.fr</a></li>
+			</ul>
+			
+		</header>
+		<main>
+			
+		<h2 class="tweets-primary-count">
+			<span class="tweets-primary-count-num">7,603</span> tweets
+		</h2>
+
+		<form class="js" method="get" id="search-url">
+			<h2>Search for <label for="tweet-url">Tweet URL</label>:</h2>
+			<div class="tweets-search">
+				<div class="lo" style="--lo-margin-h: 1em; align-items: center;">
+					<div class="lo-c" style="flex-grow: 100">
+						<input type="url" id="tweet-url" required placeholder="Tweet URL" style="width: 100%">
+					</div>
+					<div class="lo-c" style="flex-grow: .001;">
+						<button type="submit">Search</button>
+					</div>
+				</div>
+			</div>
+		</form>
+
+		<div>
+			<h2><a href="/recent/">Recent:</a></h2>
+			<div class="twtr-sentiment twtr-sentiment-max js">
+				<div class="twtr-sentiment-chart ct-chart"></div>
+				<div class="twtr-sentiment-label">
+					⬅️ New
+					<span>⬆️ 🙂<br>⬇️ 🙁</span>
+				</div>
+			</div>
+			<ol class="tweets tweets-linear-list" id="tweets-recent-home">
+				<li id="1588393278646341632" class="tweet">
+		
+			<div class="tweet-text">Follow me on Mastodon: @steren@status.steren.fr
+
+<a href="https://status.steren.fr/@steren" class="tweet-url">status.steren.fr/@steren</a><div class="tweet-medias"><a href="https://status.steren.fr/@steren"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fstatus.steren.fr%2F%40steren/small/" alt="OpenGraph image for status.steren.fr/@steren" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1588393278646341632/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1588393278646341632" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Nov 4</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1588204214190161921" class="tweet">
+		
+			<div class="tweet-text">Cache-Control headers are what allows you to serve dynamic content with the performance of static, without having to pre-render everything in a build step prior to deployment.
+Use Cache-Control headers for example when using Cloud Run and (Firebase Hosting or Cloud CDN) <a href="https://twitter.com/BHolmesDev/status/1588168499507216384" class="tweet-username">BHolmesDev/1588168499507216384</a></div>
+			<span class="tweet-metadata">
+				<a href="/1588204214190161921/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1588204214190161921" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Nov 3</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1587890651722485760" class="tweet">
+		
+			<div class="tweet-text">What <a href="https://www.zachleat.com/twitter/" class="tweet-username">zachleat</a> has done to archive his Twitter content on his own domain is awesome: <a href="https://www.zachleat.com/twitter" class="tweet-url">zachleat.com/twitter</a>
+Notably the consistency between twitter URLs and URLs of archived tweets.
+That's something I've been wanting to do in a long time.<div class="tweet-medias"><a href="https://www.zachleat.com/twitter"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fwww.zachleat.com%2Ftwitter/small/" alt="OpenGraph image for zachleat.com/twitter" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1587890651722485760/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1587890651722485760" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Nov 2</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">4</strong> 🙂</span>
+			</span>
+		</li><li id="1587888136859754498" class="tweet">
+		
+			<div class="tweet-text"><a href="http://joinmastodon.org" class="tweet-url">joinmastodon.org</a> exceeds my expectations: not only it is federated (users on a Mastodon server interact with users on another Mastodon server), it also implements the ActivityPub spec, so users can interact between implementations, e.g. Mastodon &lt;&gt; microblogpub</div>
+			<span class="tweet-metadata">
+				<a href="/1587888136859754498/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1587888136859754498" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Nov 2</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1587886230221398016" class="tweet">
+		
+			<div class="tweet-text">If you decide to move from Twitter to Mastodon, I encourage you to not use the <a href="http://mastodon.social" class="tweet-url">mastodon.social</a> server.
+The whole point of Mastodon is federation. If most end up on the same server, we are back to square 1 regarding centralization.
+Pick a server at <a href="https://joinmastodon.org/servers" class="tweet-url">joinmastodon.org/servers</a><div class="tweet-medias"><a href="https://joinmastodon.org/servers"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fjoinmastodon.org%2Fservers/small/" alt="OpenGraph image for joinmastodon.org/servers" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1587886230221398016/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1587886230221398016" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Nov 2</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
+			</span>
+		</li><li id="1587594174466969600" class="tweet">
+		
+			<div class="tweet-text"><a href="https://treo.sh/sitespeed/" class="tweet-url">treo.sh/sitespeed/</a>
+Site speed audit based on real-user data from Chrome UX Report<div class="tweet-medias"><a href="https://treo.sh/sitespeed/"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Ftreo.sh%2Fsitespeed%2F/small/" alt="OpenGraph image for treo.sh/sitespeed/" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1587594174466969600/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1587594174466969600" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Nov 1</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1587252578982584320" class="tweet">
+		
+			<div class="tweet-text">🎃 Happy Halloween trick-or-treaters! <div class="tweet-medias"><a href="/img/maQ3q3HHiR.jpeg"><img src="/img/maQ3q3HHiR.jpeg" width="1200" height="904" alt="oh my god twitter doesn’t include alt text from images in their API" class="tweet-media" onerror="fallbackMedia(this)" loading="lazy" decoding="async"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1587252578982584320/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1587252578982584320" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Nov 1</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">6</strong> 🙂</span>
+			</span>
+		</li><li id="1586739085049143298" class="tweet">
+		
+			<div class="tweet-text">I'm case you are flocking from Twitter to Mastodon, follow me at <a href="https://mastodon.green/@steren" class="tweet-url">mastodon.green/@steren</a>
+
+(But I don't post much there)<div class="tweet-medias"><a href="https://mastodon.green/@steren"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fmastodon.green%2F%40steren/small/" alt="OpenGraph image for mastodon.green/@steren" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1586739085049143298/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1586739085049143298" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 30</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1585502187005743104" class="tweet">
+		
+			<div class="tweet-text">Apple, these websites start to accumulate:
+<a href="https://timetoplayfair.com/audiobooks/" class="tweet-url">timetoplayfair.com/audiobooks/</a>
+<a href="https://www.android.com/get-the-message/" class="tweet-url">android.com/get-the-message/</a>
+<a href="https://www.epicgames.com/site/en-US/free-fortnite-faq" class="tweet-url">epicgames.com/site/en-US/free-fortnite-faq</a>
+<a href="https://open-web-advocacy.org/walled-gardens-report/" class="tweet-url">open-web-advocacy.org/walled-gardens-report/</a><div class="tweet-medias"><a href="https://timetoplayfair.com/audiobooks/"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Ftimetoplayfair.com%2Faudiobooks%2F/small/" alt="OpenGraph image for timetoplayfair.com/audiobooks/" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a><a href="https://www.android.com/get-the-message/"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fwww.android.com%2Fget-the-message%2F/small/" alt="OpenGraph image for android.com/get-the-message/" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a><a href="https://www.epicgames.com/site/en-US/free-fortnite-faq"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fwww.epicgames.com%2Fsite%2Fen-US%2Ffree-fortnite-faq/small/" alt="OpenGraph image for epicgames.com/site/en-US/free-fortnite-faq" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a><a href="https://open-web-advocacy.org/walled-gardens-report/"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fopen-web-advocacy.org%2Fwalled-gardens-report%2F/small/" alt="OpenGraph image for open-web-advocacy.org/walled-gardens-report/" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1585502187005743104/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1585502187005743104" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 27</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1585307214620676101" class="tweet">
+		
+			<div class="tweet-text">"Will delete this meeting if we're able to resolve the comments before." <div class="tweet-medias"><video muted controls loop src="https://video.twimg.com/tweet_video/FgAkgeMUUAYWjxT.mp4" poster="/img/BH4-hL6JjO.jpeg" class="tweet-media"></video></div></div>
+			<span class="tweet-metadata">
+				<a href="/1585307214620676101/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1585307214620676101" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 26</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
+			</span>
+		</li><li id="1584707941533646850" class="tweet">
+		
+			<div class="tweet-text">I do not understand how the United States made it this far considering:
+- X,XXX numbers are exchanged sometimes using "thousands", sometimes using "hundreds"
+- all lengths are expressed in both feet *and* inches
+- the various imperial units just don't work well with each other</div>
+			<span class="tweet-metadata">
+				<a href="/1584707941533646850/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1584707941533646850" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 25</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">1</strong> 🙂</span>
+			</span>
+		</li><li id="1584341054852956160" class="tweet">
+		
+			<div class="tweet-text">Where will you find me next week?</div>
+			<span class="tweet-metadata">
+				<a href="/1584341054852956160/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1584341054852956160" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 24</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1582058276962721795" class="tweet">
+		
+			<div class="tweet-text">"Speedrunning a Product Requirement Document"
+One of my favorite work activity.
+After talking to a lot of customers / understanding the problem. Block 2h-3h in Calendar. Turn on Do not disturb. Close all tabs.
+Output: complete document ready to be shared with the team.</div>
+			<span class="tweet-metadata">
+				<a href="/1582058276962721795/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1582058276962721795" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 17</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
+			</span>
+		</li><li id="1581327321834803200" class="tweet">
+		
+			<div class="tweet-text">I'm impressed how well Google Search surfaces <a href="http://steren.fr" class="tweet-url">steren.fr</a>. <div class="tweet-medias"><a href="/img/r4ruTTQDV9.jpeg"><img src="/img/r4ruTTQDV9.jpeg" width="1080" height="1152" alt="oh my god twitter doesn’t include alt text from images in their API" class="tweet-media" onerror="fallbackMedia(this)" loading="lazy" decoding="async"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1581327321834803200/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1581327321834803200" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 15</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">3</strong> 🙂</span>
+			</span>
+		</li><li id="1581104931930484736" class="tweet">
+		
+			<div class="tweet-text">If you have children, this is a reminder that this gem by the <a href="https://twitter.com/googlechrome/" class="tweet-username">googlechrome</a> team exists: <a href="https://musiclab.chromeexperiments.com/Experiments" class="tweet-url">musiclab.chromeexperiments.com/Experiments</a><div class="tweet-medias"><a href="https://musiclab.chromeexperiments.com/Experiments"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fmusiclab.chromeexperiments.com%2FExperiments/small/" alt="OpenGraph image for musiclab.chromeexperiments.com/Experiments" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1581104931930484736/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1581104931930484736" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				
+				<span class="tag tag-naked tag-lite">2022 Oct 15</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">3</strong> 🙂</span>
+			</span>
+		</li>
+			</ol>
+		</div>
+
+		<div>
+			<h2><a href="/popular/">Popular:</a></h2>
+			<ol class="tweets tweets-linear-list">
+				<li id="521253070068391936" class="tweet">
+		
+			<div class="tweet-text">Drone racing with POV cameras in France. I seriously think these guys are pioneers of a new racing sport: <a href="http://youtu.be/ZwL0t5kPf6E" class="tweet-url">youtu.be/ZwL0t5kPf6E</a></div>
+			<span class="tweet-metadata">
+				<a href="/521253070068391936/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/521253070068391936" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				<span class="tag tag-lite tag-retweet">♻️ 257<span class="sr-only"> Retweets</span></span>
+					<span class="tag tag-lite tag-favorite">❤️ 165<span class="sr-only"> Favorites</span></span>
+				<span class="tag tag-naked tag-lite">2014 Oct 12</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">0</strong></span>
+			</span>
+		</li><li id="1115648277356077058" class="tweet">
+		
+			<div class="tweet-text">🚀 Today at #GoogleNext19, we are launching Cloud Run.
+Allowing you to run any stateless http container in a fully managed environment, paying only for the exact resources you use. 📦☁️
+👉 <a href="https://cloud.google.com/run" class="tweet-url">cloud.google.com/run</a> <div class="tweet-medias"><a href="https://cloud.google.com/run"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fcloud.google.com%2Frun/small/" alt="OpenGraph image for cloud.google.com/run" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a><a href="/img/0My2zmBIcO.jpeg"><img src="/img/0My2zmBIcO.jpeg" width="1200" height="826" alt="oh my god twitter doesn’t include alt text from images in their API" class="tweet-media" onerror="fallbackMedia(this)" loading="lazy" decoding="async"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1115648277356077058/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1115648277356077058" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				<span class="tag tag-lite tag-retweet">♻️ 197<span class="sr-only"> Retweets</span></span>
+					<span class="tag tag-lite tag-favorite">❤️ 611<span class="sr-only"> Favorites</span></span>
+				<span class="tag tag-naked tag-lite">2019 Apr 9</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">3</strong> 🙂</span>
+			</span>
+		</li><li id="1104872201293946881" class="tweet">
+		
+			<div class="tweet-text">How much is 4% of 75? Hard to tell, right?
+
+Well, it's the same as 75% of 4, which is trivial and is 3.
+
+I guess it was never too late for me to realize that 4% * 75 = 4 * 0.01 * 75 = 4 * 75 * 0.01 = 4 * 75%</div>
+			<span class="tweet-metadata">
+				<a href="/1104872201293946881/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1104872201293946881" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				<span class="tag tag-lite tag-retweet">♻️ 192<span class="sr-only"> Retweets</span></span>
+					<span class="tag tag-lite tag-favorite">❤️ 1,207<span class="sr-only"> Favorites</span></span>
+				<span class="tag tag-naked tag-lite">2019 Mar 10</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood <strong class="tweet-sentiment">-1</strong> 🙁</span>
+			</span>
+		</li><li id="1461573175733481473" class="tweet">
+		
+			<div class="tweet-text">I'm now convinced that the most impactful product advice I should give is simply: use your own product.</div>
+			<span class="tweet-metadata">
+				<a href="/1461573175733481473/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1461573175733481473" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				<span class="tag tag-lite tag-retweet">♻️ 106<span class="sr-only"> Retweets</span></span>
+					<span class="tag tag-lite tag-favorite">❤️ 867<span class="sr-only"> Favorites</span></span>
+				<span class="tag tag-naked tag-lite">2021 Nov 19</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">1</strong> 🙂</span>
+			</span>
+		</li><li id="1314602825125568513" class="tweet">
+		
+			<div class="tweet-text">Google Cloud has created its official set of buildpacks to help customers containerize apps in popular languages. They already are used in production on App Engine and Cloud Functions, and supported by many other products. <a href="https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-now-supports-buildpacks" class="tweet-url">cloud.google.com/blog/products/containers-kubernetes/google-cloud-now-supports-buildpacks</a><div class="tweet-medias"><a href="https://cloud.google.com/blog/products/containers-kubernetes/google-cloud-now-supports-buildpacks"><img src="https://v1.opengraph.11ty.dev/https%3A%2F%2Fcloud.google.com%2Fblog%2Fproducts%2Fcontainers-kubernetes%2Fgoogle-cloud-now-supports-buildpacks/small/" alt="OpenGraph image for cloud.google.com/blog/products/containers-kubernetes/google-cloud-now-supports-buildpacks" loading="lazy" decoding="async" width="375" height="197" class="tweet-media tweet-media-og"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/1314602825125568513/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/1314602825125568513" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				<span class="tag tag-lite tag-retweet">♻️ 101<span class="sr-only"> Retweets</span></span>
+					<span class="tag tag-lite tag-favorite">❤️ 307<span class="sr-only"> Favorites</span></span>
+				<span class="tag tag-naked tag-lite">2020 Oct 9</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">7</strong> 🙂</span>
+			</span>
+		</li><li id="946833834657636352" class="tweet">
+		
+			<div class="tweet-text">315 km/h (196mph) in the TGV 🚄⚡⚡⚡
+To all of you living in France, take a second to realize that it's definitely not in every country that trains go so fast.
+Bonus points for emitting 20x less CO2 per passenger than cars 🚗💨
+
+Thanks <a href="https://twitter.com/SNCF/" class="tweet-username">SNCF</a>. cc @DansLeTGV <div class="tweet-medias"><a href="/img/bIesSGaFtZ.jpeg"><img src="/img/bIesSGaFtZ.jpeg" width="1200" height="900" alt="oh my god twitter doesn’t include alt text from images in their API" class="tweet-media" onerror="fallbackMedia(this)" loading="lazy" decoding="async"></a></div></div>
+			<span class="tweet-metadata">
+				<a href="/946833834657636352/" class="tag tag-naked">Permalink</a>
+				<a href="https://twitter.com/steren/status/946833834657636352" class="tag tag-naked"><span class="sr-only">On twitter.com </span>↗</a>
+				
+				<a href="/" class="tag tag-naked tag-lite tag-avatar"><img src="https://steren.fr/face.jpg" width="52" height="52" alt="steren’s avatar" class="tweet-avatar"></a>
+				<span class="tag tag-lite tag-retweet">♻️ 92<span class="sr-only"> Retweets</span></span>
+					<span class="tag tag-lite tag-favorite">❤️ 175<span class="sr-only"> Favorites</span></span>
+				<span class="tag tag-naked tag-lite">2017 Dec 29</span>
+				<span class="tag tag-naked tag-lite sr-only">Mood +<strong class="tweet-sentiment">2</strong> 🙂</span>
+			</span>
+		</li>
+			</ol>
+		</div>
+
+		<h2 id="retweets">I’ve retweeted other tweets 982 times (12.9%)</h2>
+		<div class="lo" style="--lo-stackpoint: 20em">
+			<div class="lo-c">
+				<h3>Most Retweeted</h3>
+				<ol>
+					<li><a href="https://twitter.com/googlecloud">googlecloud</a> 21 retweets</li><li><a href="https://twitter.com/ahmetb">ahmetb</a> 20 retweets</li><li><a href="https://twitter.com/MylesBorins">MylesBorins</a> 17 retweets</li><li><a href="https://twitter.com/kelseyhightower">kelseyhightower</a> 17 retweets</li><li><a href="https://twitter.com/wietsevenema">wietsevenema</a> 13 retweets</li><li><a href="https://twitter.com/Sketchfab">Sketchfab</a> 11 retweets</li><li><a href="https://twitter.com/geeyom">geeyom</a> 10 retweets</li><li><a href="https://twitter.com/azaaza">azaaza</a> 10 retweets</li><li><a href="https://twitter.com/mchmarny">mchmarny</a> 9 retweets</li><li><a href="https://twitter.com/bazelbuild">bazelbuild</a> 9 retweets</li>
+				</ol>
+			</div>
+			<div class="lo-c">
+				<h3>Most Retweeted (Last 12 months)</h3>
+				<ol>
+					<li><a href="https://twitter.com/mchmarny">mchmarny</a> 3 retweets</li><li><a href="https://twitter.com/wietsevenema">wietsevenema</a> 2 retweets</li><li><a href="https://twitter.com/n_1215">n_1215</a> 1 retweet</li><li><a href="https://twitter.com/aerialfly">aerialfly</a> 1 retweet</li><li><a href="https://twitter.com/leeerob">leeerob</a> 1 retweet</li><li><a href="https://twitter.com/stefanjudis">stefanjudis</a> 1 retweet</li><li><a href="https://twitter.com/_benjamintd">_benjamintd</a> 1 retweet</li><li><a href="https://twitter.com/wylynko">wylynko</a> 1 retweet</li><li><a href="https://twitter.com/kevmoo">kevmoo</a> 1 retweet</li><li><a href="https://twitter.com/jasonlong">jasonlong</a> 1 retweet</li>
+				</ol>
+			</div>
+		</div>
+
+		<h2 id="replies">Replies and Mentions</h2>
+		<h3>45.0% of my tweets are replies (×3,424)</h3>
+		<div class="lo" style="--lo-stackpoint: 20em">
+			<div class="lo-c">
+				<h4>Most Replies To</h4>
+				<ol>
+					<li><a href="https://twitter.com/manekinekko">manekinekko</a> 44 replies</li><li><a href="https://twitter.com/MylesBorins">MylesBorins</a> 39 replies</li><li><a href="https://twitter.com/jplts">jplts</a> 37 replies</li><li><a href="https://twitter.com/ahmetb">ahmetb</a> 35 replies</li><li><a href="https://twitter.com/mattomata">mattomata</a> 34 replies</li>
+				</ol>
+			</div>
+			<div class="lo-c">
+				<h4>Most Replies To (Last 12 months)</h4>
+				<ol>
+					<li><a href="https://twitter.com/bradfitz">bradfitz</a> 11 replies</li><li><a href="https://twitter.com/manekinekko">manekinekko</a> 8 replies</li><li><a href="https://twitter.com/cramforce">cramforce</a> 8 replies</li><li><a href="https://twitter.com/simonw">simonw</a> 7 replies</li><li><a href="https://twitter.com/rakyll">rakyll</a> 7 replies</li>
+				</ol>
+			</div>
+		</div>
+		<h3>I’ve sent someone a mention 88 times (1.2%)</h3>
+
+		<h2 id="links">Most Frequent Sites I’ve Linked To</h2>
+		<h3>65.8% of the links I’ve posted are using the <code>https:</code> protocol  (2,071 of 3,147)</h3>
+		<h3>92.0% of the links I’ve posted in the last 12 months are using the <code>https:</code> protocol  (276 of 300)</h3>
+
+		<div class="lo" style="--lo-stackpoint: 20em">
+			<div class="lo-c">
+				<h4>Top Domains</h4>
+				<ol>
+					<li><a href="https://google.com">google.com</a> 492 tweets</li><li><a href="https://github.com">github.com</a> 309 tweets</li><li><a href="https://twitter.com">twitter.com</a> 302 tweets</li><li><a href="https://youtu.be">youtu.be</a> 146 tweets</li><li><a href="https://youtube.com">youtube.com</a> 99 tweets</li><li><a href="https://steren.fr">steren.fr</a> 85 tweets</li><li><a href="https://cloud.run">cloud.run</a> 45 tweets</li><li><a href="https://bit.ly">bit.ly</a> 40 tweets</li><li><a href="https://googleblog.com">googleblog.com</a> 40 tweets</li><li><a href="https://sketchfab.com">sketchfab.com</a> 34 tweets</li>
+				</ol>
+			</div>
+			<div class="lo-c">
+				<h4>Top Hosts</h4>
+				<ol>
+					<li><a href="https://cloud.google.com">cloud.google.com</a> 328 tweets</li><li><a href="https://twitter.com">twitter.com</a> 298 tweets</li><li><a href="https://github.com">github.com</a> 292 tweets</li><li><a href="https://youtu.be">youtu.be</a> 146 tweets</li><li><a href="https://www.youtube.com">www.youtube.com</a> 98 tweets</li><li><a href="https://cloud.run">cloud.run</a> 43 tweets</li><li><a href="https://labs.steren.fr">labs.steren.fr</a> 41 tweets</li><li><a href="https://bit.ly">bit.ly</a> 40 tweets</li><li><a href="https://goo.gl">goo.gl</a> 27 tweets</li><li><a href="https://medium.com">medium.com</a> 26 tweets</li>
+				</ol>
+			</div>
+		</div>
+
+		<h2 id="shared">My tweets have been given about <span class="tag tag-lite tag-retweet">♻️ 6,141</span> retweets and <span class="tag tag-lite tag-favorite">❤️ 32,404</span> likes</h2>
+
+		<h2 id="emoji">Top 5 Emoji Used in Tweets</h2>
+		<ol>
+			<li>😁 used 22 times on 22 tweets</li><li>✅ used 18 times on 8 tweets</li><li>👏 used 14 times on 6 tweets</li><li>👉 used 13 times on 13 tweets</li><li>🤔 used 10 times on 10 tweets</li>
+		</ol>
+		<p><em>145 unique emoji on 276 tweets (4.2% of all tweets***)</em></p>
+		<h2 id="hashtags">Top 5 Hashtags</h2>
+		<ol>
+			<li><code>hacklecamping</code> used 28 times </li><li><code>lecamping</code> used 23 times </li><li><code>swpa</code> used 23 times </li><li><code>b3d</code> used 22 times </li><li><code>hackdayparis</code> used 16 times </li>
+		</ol>
+		<p><em>624 hashtags on 620 tweets (9.4% of all tweets***)</em></p>
+		<h2 id="swears">Top 5 Swear Words</h2>
+		<ol>
+			<li><code>s_it</code> used 4 times </li><li><code>t_rd</code> used 3 times </li><li><code>a_s</code> used 3 times </li><li><code>b_llshit</code> used 2 times </li><li><code>h_ll</code> used 2 times </li>
+		</ol>
+		<p><em>19 swear words on 19 tweets (0.3% of all tweets***)</em></p>
+		<p>***: does not include retweets</p>
+
+		<script>
+		var searchForm = document.getElementById("search-url");
+		if(searchForm) {
+			searchForm.addEventListener("submit", function(e) {
+				e.preventDefault();
+
+				var urlInput = searchForm.querySelector('input[type="url"]');
+				if(urlInput && urlInput.value) {
+					var tweetIdMatch = urlInput.value.match(/\/(\d+)/);
+					if(tweetIdMatch && tweetIdMatch.length) {
+						document.location.href = "/" + tweetIdMatch[1] + "/";
+					}
+				}
+			}, false);
+		}
+
+		var series = getSentimentsFromList( '#tweets-recent-home' );
+		makeSentimentChart( '.twtr-sentiment-chart', series );
+		</script>
+
+		</main>
+		<footer>
+			<p>An open source project from <a href="https://github.com/tweetback">tweetback</a>.</p>
+		</footer>
+	</body>
+</html>
